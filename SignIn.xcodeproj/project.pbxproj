@@ -1,0 +1,319 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		792BF64A1E76A50B00325C71 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 792BF6491E76A50B00325C71 /* AppDelegate.m */; };
+		792BF64D1E76A50B00325C71 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 792BF64C1E76A50B00325C71 /* main.m */; };
+		792BF64F1E76A50B00325C71 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 792BF64E1E76A50B00325C71 /* Assets.xcassets */; };
+		792BF6521E76A50B00325C71 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 792BF6501E76A50B00325C71 /* MainMenu.xib */; };
+		792BF6601E76A54400325C71 /* StatusItemController.m in Sources */ = {isa = PBXBuildFile; fileRef = 792BF65A1E76A54400325C71 /* StatusItemController.m */; };
+		792BF6611E76A54400325C71 /* StatusItemView.m in Sources */ = {isa = PBXBuildFile; fileRef = 792BF65C1E76A54400325C71 /* StatusItemView.m */; };
+		792BF6621E76A54400325C71 /* CLCPopController.m in Sources */ = {isa = PBXBuildFile; fileRef = 792BF65E1E76A54400325C71 /* CLCPopController.m */; };
+		792BF6631E76A54400325C71 /* CLCPopController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 792BF65F1E76A54400325C71 /* CLCPopController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		792BF6451E76A50B00325C71 /* SignIn.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SignIn.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		792BF6481E76A50B00325C71 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		792BF6491E76A50B00325C71 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		792BF64C1E76A50B00325C71 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		792BF64E1E76A50B00325C71 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		792BF6511E76A50B00325C71 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		792BF6531E76A50B00325C71 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		792BF6591E76A54400325C71 /* StatusItemController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StatusItemController.h; sourceTree = "<group>"; };
+		792BF65A1E76A54400325C71 /* StatusItemController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StatusItemController.m; sourceTree = "<group>"; };
+		792BF65B1E76A54400325C71 /* StatusItemView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StatusItemView.h; sourceTree = "<group>"; };
+		792BF65C1E76A54400325C71 /* StatusItemView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StatusItemView.m; sourceTree = "<group>"; };
+		792BF65D1E76A54400325C71 /* CLCPopController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CLCPopController.h; sourceTree = "<group>"; };
+		792BF65E1E76A54400325C71 /* CLCPopController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CLCPopController.m; sourceTree = "<group>"; };
+		792BF65F1E76A54400325C71 /* CLCPopController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CLCPopController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		792BF6421E76A50B00325C71 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		792BF63C1E76A50B00325C71 = {
+			isa = PBXGroup;
+			children = (
+				792BF6471E76A50B00325C71 /* SignIn */,
+				792BF6461E76A50B00325C71 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		792BF6461E76A50B00325C71 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				792BF6451E76A50B00325C71 /* SignIn.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		792BF6471E76A50B00325C71 /* SignIn */ = {
+			isa = PBXGroup;
+			children = (
+				792BF6481E76A50B00325C71 /* AppDelegate.h */,
+				792BF6491E76A50B00325C71 /* AppDelegate.m */,
+				792BF6591E76A54400325C71 /* StatusItemController.h */,
+				792BF65A1E76A54400325C71 /* StatusItemController.m */,
+				792BF65B1E76A54400325C71 /* StatusItemView.h */,
+				792BF65C1E76A54400325C71 /* StatusItemView.m */,
+				792BF65D1E76A54400325C71 /* CLCPopController.h */,
+				792BF65E1E76A54400325C71 /* CLCPopController.m */,
+				792BF65F1E76A54400325C71 /* CLCPopController.xib */,
+				792BF64E1E76A50B00325C71 /* Assets.xcassets */,
+				792BF6501E76A50B00325C71 /* MainMenu.xib */,
+				792BF6531E76A50B00325C71 /* Info.plist */,
+				792BF64B1E76A50B00325C71 /* Supporting Files */,
+			);
+			path = SignIn;
+			sourceTree = "<group>";
+		};
+		792BF64B1E76A50B00325C71 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				792BF64C1E76A50B00325C71 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		792BF6441E76A50B00325C71 /* SignIn */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 792BF6561E76A50B00325C71 /* Build configuration list for PBXNativeTarget "SignIn" */;
+			buildPhases = (
+				792BF6411E76A50B00325C71 /* Sources */,
+				792BF6421E76A50B00325C71 /* Frameworks */,
+				792BF6431E76A50B00325C71 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SignIn;
+			productName = SignIn;
+			productReference = 792BF6451E76A50B00325C71 /* SignIn.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		792BF63D1E76A50B00325C71 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "王志朋";
+				TargetAttributes = {
+					792BF6441E76A50B00325C71 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 792BF6401E76A50B00325C71 /* Build configuration list for PBXProject "SignIn" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 792BF63C1E76A50B00325C71;
+			productRefGroup = 792BF6461E76A50B00325C71 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				792BF6441E76A50B00325C71 /* SignIn */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		792BF6431E76A50B00325C71 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				792BF6631E76A54400325C71 /* CLCPopController.xib in Resources */,
+				792BF64F1E76A50B00325C71 /* Assets.xcassets in Resources */,
+				792BF6521E76A50B00325C71 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		792BF6411E76A50B00325C71 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				792BF64D1E76A50B00325C71 /* main.m in Sources */,
+				792BF6611E76A54400325C71 /* StatusItemView.m in Sources */,
+				792BF6621E76A54400325C71 /* CLCPopController.m in Sources */,
+				792BF6601E76A54400325C71 /* StatusItemController.m in Sources */,
+				792BF64A1E76A50B00325C71 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		792BF6501E76A50B00325C71 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				792BF6511E76A50B00325C71 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		792BF6541E76A50B00325C71 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		792BF6551E76A50B00325C71 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		792BF6571E76A50B00325C71 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = SignIn/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "---.SignIn";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		792BF6581E76A50B00325C71 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = SignIn/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "---.SignIn";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		792BF6401E76A50B00325C71 /* Build configuration list for PBXProject "SignIn" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				792BF6541E76A50B00325C71 /* Debug */,
+				792BF6551E76A50B00325C71 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		792BF6561E76A50B00325C71 /* Build configuration list for PBXNativeTarget "SignIn" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				792BF6571E76A50B00325C71 /* Debug */,
+				792BF6581E76A50B00325C71 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 792BF63D1E76A50B00325C71 /* Project object */;
+}
